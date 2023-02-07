@@ -227,6 +227,7 @@ a {
   display: flex;
   justify-content: flex-end;
   margin-right: 69px;
+  padding: 35px 0;
 }
 .menu {
   display: flex;
@@ -249,38 +250,97 @@ a {
 }
 h1 {
   font-size: 46px;
-  
 }
 .header-text {
   font-size: 15px;
   margin-top: 26px;
 }
 .header-text-position {
-margin: 226px auto;
-
+  margin: 226px auto;
 }
 .photo {
   position: absolute;
   left: 634px;
   top: 120px;
+  max-width: 100%;
+  object-fit: contain;
 }
 .header-btn {
-    padding: 10px 23px;
-    color: white;
-    background-color: black;
-    border-radius: 999px;
+  padding: 10px 23px;
+  color: white;
+  background-color: black;
+  border-radius: 999px;
+  transition: 0.3s;
 }
 .header-btn:hover {
-    background-color: transparent;
-    color: inherit;
-    border: 1px solid black;
+  background-color: transparent;
+  color: inherit;
+  transition: 0.3s;
 }
 .partners {
   margin-top: 85px;
   padding: 40px 0;
 }
 .partners-title {
-font-size: 40px;
-text-align: center;
-padding: 0 185px;
+  font-size: 40px;
+  text-align: center;
+  padding: 0 185px;
+}
+.button {
+  margin: 67px 157px;
+  text-align: center;
+}
+.partners-link {
+  background-color: #002d24;
+  color: white;
+  font-size: 28px;
+  padding: 19px 28px;
+  border-radius: 999px;
+  margin: 8px 8px;
+  transition: 0.3s;
+}
+span {
+  color: #1de08f;
+}
+.partners-link:hover {
+  background-color: transparent;
+  color: inherit;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.partners-btn {
+  color: inherit;
+  background-color: #1de08f;
+  border-radius: 999px;
+  font-size: 13px;
+  padding: 13px 23px;
+  display: block;
+  margin: 0 514px;
+  text-align: center;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.partners-btn:hover {
+  background-color: transparent;
+  color: inherit;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.advantages {
+  margin: 134px 50px;
+  padding: 176px 66px;
+  display: flex;
+  border: 1px solid #00000014;
+  border-radius: 19px;
+  box-shadow: 0px 0px 20px 0px #00000014;
+  gap: 117px;
+  }
+h3 {
+  font-size: 22px;
+  text-align: center;
+}
+.advantages-text {
+  margin-top: 19px;
+  font-size: 15px;
+  text-align: center;
 }
