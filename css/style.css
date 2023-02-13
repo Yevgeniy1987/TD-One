@@ -221,58 +221,65 @@ a {
   margin: 0 auto;
 }
 .header {
-  background-color: #1de08f;
+   position: relative;
 }
 .navbar {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 69px;
-  padding: 35px 0;
-}
+  position: absolute;
+  left: 500px;
+  
+ }
 .menu {
   display: flex;
-  flex-direction: row;
-  padding: 10px 10px;
   gap: 29px;
 }
 .header-link {
   font-size: 14px;
+  padding: 30px 10px;
   text-transform: uppercase;
 }
 .header-link:hover {
   text-decoration: underline;
 }
-.header-content {
+.hero {
+  background-color: #1de08f;
+  padding: 75px 0;
+}
+.hero-content {
   display: flex;
   flex-direction: row;
-  gap: 25px;
-  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+    
+}
+.hero-content-location {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
 }
 h1 {
   font-size: 46px;
 }
-.header-text {
+.hero-text {
   font-size: 15px;
-  margin-top: 26px;
+  line-height: 150%;
+  margin-top: 28px;
+  
 }
-.header-text-position {
-  margin: 226px auto;
-}
+
 .photo {
-  position: absolute;
-  left: 634px;
-  top: 120px;
-  max-width: 100%;
-  object-fit: contain;
+  max-width: 50%;
 }
-.header-btn {
+.hero-btn {
   padding: 10px 23px;
   color: white;
   background-color: black;
   border-radius: 999px;
+  border: 1px solid black;
   transition: 0.3s;
+  margin-top: 28px;
 }
-.header-btn:hover {
+.hero-btn:hover {
   background-color: transparent;
   color: inherit;
   transition: 0.3s;
@@ -281,33 +288,38 @@ h1 {
   margin-top: 85px;
   padding: 40px 0;
 }
+.partners-location {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
 .partners-title {
   font-size: 40px;
   text-align: center;
-  padding: 0 185px;
+  /* padding: 0 185px; */
+  width: 70%;
+  margin: 0 auto;
 }
-.button {
-  margin: 67px 157px;
-  text-align: center;
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+  /* text-align: center; */
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
-.partners-link {
+.partners-info {
   background-color: #002d24;
   color: white;
   font-size: 28px;
   padding: 19px 28px;
   border-radius: 999px;
   margin: 8px 8px;
-  transition: 0.3s;
-}
+ }
 span {
   color: #1de08f;
 }
-.partners-link:hover {
-  background-color: transparent;
-  color: inherit;
-  transition: 0.3s;
-  text-decoration: underline;
-}
+
 .partners-btn {
   color: inherit;
   background-color: #1de08f;
@@ -315,7 +327,7 @@ span {
   font-size: 13px;
   padding: 13px 23px;
   display: block;
-  margin: 0 514px;
+  margin: 0 auto;
   text-align: center;
   transition: 0.3s;
   text-transform: uppercase;
@@ -329,12 +341,15 @@ span {
 .advantages {
   margin: 134px 50px;
   padding: 176px 66px;
-  display: flex;
   border: 1px solid #00000014;
   border-radius: 19px;
   box-shadow: 0px 0px 20px 0px #00000014;
-  gap: 117px;
-  }
+  
+}
+.advantages-location {
+  display: flex;
+  justify-content: space-between;
+}
 h3 {
   font-size: 22px;
   text-align: center;
@@ -343,4 +358,7 @@ h3 {
   margin-top: 19px;
   font-size: 15px;
   text-align: center;
+}
+.advantages-box {
+  width: 25%;
 }
