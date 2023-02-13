@@ -292,6 +292,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 80px;
+  align-items: center;
 }
 .partners-title {
   font-size: 40px;
@@ -300,13 +301,14 @@ h1 {
   width: 70%;
   margin: 0 auto;
 }
-.labels {
+.partner-labels {
   display: flex;
   flex-wrap: wrap;
   /* text-align: center; */
   justify-content: center;
   width: 80%;
   margin: 0 auto;
+  gap: 8px;
 }
 .partners-info {
   background-color: #002d24;
@@ -314,21 +316,17 @@ h1 {
   font-size: 28px;
   padding: 19px 28px;
   border-radius: 999px;
-  margin: 8px 8px;
+  
  }
 span {
   color: #1de08f;
 }
 
 .partners-btn {
-  color: inherit;
   background-color: #1de08f;
   border-radius: 999px;
   font-size: 13px;
   padding: 13px 23px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
   transition: 0.3s;
   text-transform: uppercase;
 }
@@ -339,8 +337,8 @@ span {
   text-decoration: underline;
 }
 .advantages {
-  margin: 134px 50px;
-  padding: 176px 66px;
+  margin: 90px 50px;
+  padding: 140px 0;
   border: 1px solid #00000014;
   border-radius: 19px;
   box-shadow: 0px 0px 20px 0px #00000014;
