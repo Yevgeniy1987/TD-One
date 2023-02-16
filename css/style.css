@@ -225,7 +225,8 @@ a {
 }
 .navbar {
   position: absolute;
-  left: 500px;
+  left: 339px;
+  width: 100%;
   
  }
 .menu {
@@ -242,7 +243,7 @@ a {
 }
 .hero {
   background-color: #1de08f;
-  padding: 75px 0;
+  padding-top: 75px;
 }
 .hero-content {
   display: flex;
@@ -284,10 +285,7 @@ h1 {
   color: inherit;
   transition: 0.3s;
 }
-.partners {
-  margin-top: 85px;
-  padding: 40px 0;
-}
+
 .partners-location {
   display: flex;
   flex-direction: column;
@@ -297,14 +295,12 @@ h1 {
 .partners-title {
   font-size: 40px;
   text-align: center;
-  /* padding: 0 185px; */
   width: 70%;
   margin: 0 auto;
 }
 .partner-labels {
   display: flex;
   flex-wrap: wrap;
-  /* text-align: center; */
   justify-content: center;
   width: 80%;
   margin: 0 auto;
@@ -337,7 +333,7 @@ span {
   text-decoration: underline;
 }
 .advantages {
-  margin: 90px 50px;
+  margin: 0 50px;
   padding: 140px 0;
   border: 1px solid #00000014;
   border-radius: 19px;
@@ -346,7 +342,7 @@ span {
 }
 .advantages-location {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 h3 {
   font-size: 22px;
@@ -359,4 +355,24 @@ h3 {
 }
 .advantages-box {
   width: 25%;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 135px;
+}
+.brands {
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+}
+.brands-title {
+font-size: 30px;
+text-align: center;
+width: 70%;
+margin: 0 auto;
+}
+.brands-features {
+  display: flex;
+  justify-content: space-around;
 }
