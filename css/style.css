@@ -221,14 +221,13 @@ a {
   margin: 0 auto;
 }
 .header {
-   position: relative;
+  position: relative;
 }
 .navbar {
   position: absolute;
   left: 339px;
   width: 100%;
-  
- }
+}
 .menu {
   display: flex;
   gap: 29px;
@@ -251,7 +250,6 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 35px;
-    
 }
 .hero-content-location {
   display: flex;
@@ -265,7 +263,6 @@ h1 {
   font-size: 15px;
   line-height: 150%;
   margin-top: 28px;
-  
 }
 
 .photo {
@@ -312,8 +309,7 @@ h1 {
   font-size: 28px;
   padding: 19px 28px;
   border-radius: 999px;
-  
- }
+}
 span {
   color: #1de08f;
 }
@@ -338,7 +334,6 @@ span {
   border: 1px solid #00000014;
   border-radius: 19px;
   box-shadow: 0px 0px 20px 0px #00000014;
-  
 }
 .advantages-location {
   display: flex;
@@ -367,12 +362,34 @@ h3 {
   gap: 85px;
 }
 .brands-title {
-font-size: 30px;
-text-align: center;
-width: 70%;
-margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
+
 .brands-features {
   display: flex;
   justify-content: space-around;
+}
+.brands-content {
+  width: 30%;
+}
+.brands-content::before {
+  content: "";
+  display: block;
+  width: 132px;
+  height: 132px;
+  background-color: black;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+.deco::before {
+  background-color: #46e696;
+}
+.brands-text {
+  text-align: center;
+ font-size: 21px;
+  width: 60%;
+  margin: 35px auto;
 }
