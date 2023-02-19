@@ -389,7 +389,76 @@ h3 {
 }
 .brands-text {
   text-align: center;
- font-size: 21px;
+  font-size: 21px;
   width: 60%;
   margin: 35px auto;
+}
+.micropayments {
+  padding: 50px 50px;
+}
+.micropayments-container {
+  display: flex;
+  gap: 125px;
+}
+.micropayments-section {
+  width: 60%;
+}
+.micropayment-btn {
+  padding: 10px 10px;
+  background-color: #46e696;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 35px;
+}
+.micropayments-sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 68px;
+}
+.micropayments-reverse {
+  position: relative;
+}
+.micropayments-sub-title {
+  font-size: 17px;
+  text-align: start;
+}
+.micropayments-title {
+  font-size: 46px;
+  margin-top: 15px;
+}
+
+.micropayments-content {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 90px;
+  background-color: #46e696;
+  border-radius: 25px;
+}
+
+.micropayments-content-reverse {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 90px;
+  background-color: #46e696;
+  border-radius: 25px;
+  position: absolute;
+  top: -46px;
+  left: 120px;
+}
+.micropayments-section-text {
+  font-size: 17px;
+  margin-top: 15px;
+}
+.micropayments-sidebar-text {
+  font-size: 17px;
+  padding: 23px;
+}
+.micropayments-img {
+  padding-left: 23px;
 }
