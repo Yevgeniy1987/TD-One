@@ -462,3 +462,83 @@ h3 {
 .micropayments-img {
   padding-left: 23px;
 }
+.solutions {
+  position: relative;
+}
+.solutions-features {
+  width: 95%;
+  margin: 60px auto;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 20px 0px #00000014;
+  border-radius: 20px;
+  padding: 30px 25px;
+}
+.solutions-title {
+  font-size: 27px;
+  position: absolute;
+  top: 0;
+  left: 42%;
+}
+.solutions-menu {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.solutions-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #002d2480;
+  transition: 0.3s;
+}
+.solutions-link:hover {
+  text-decoration: underline;
+  color: black;
+  transition: 0.3s;
+}
+.solutions-link:focus {
+  text-decoration: underline;
+  color: black;
+  transition: 0.3s;
+}
+.solution-sidebar {
+  width: 65%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.solution-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 42px;
+}
+.solution-content-title {
+  font-size: 31px;
+}
+.solution-text {
+  font-size: 15px;
+  line-height: 150%;
+}
+.solution-img {
+  width: 50%;
+}
+.solution-btn-align {
+  display: flex;
+  justify-content: center;
+}
+.solution-btn {
+  padding: 15px 23px;
+  background-color: #46e696;
+  border: 1px solid #46e696;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.solution-btn:hover {
+  text-decoration: underline;
+  border: 1px solid #46e696;
+  background-color: transparent;
+  transition: 0.3s;
+}
