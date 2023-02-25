@@ -393,17 +393,17 @@ h3 {
   width: 60%;
   margin: 35px auto;
 }
-.micropayments {
+.payments {
   padding: 50px 50px;
 }
-.micropayments-container {
+.payments-container {
   display: flex;
   gap: 125px;
 }
-.micropayments-section {
+.payments-section {
   width: 60%;
 }
-.micropayment-btn {
+.payment-btn {
   padding: 10px 10px;
   background-color: #46e696;
   border-radius: 35px;
@@ -412,26 +412,26 @@ h3 {
   display: inline-block;
   margin-top: 35px;
 }
-.micropayments-sidebar {
+.payments-sidebar {
   width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   gap: 68px;
 }
-.micropayments-reverse {
+.payments-reverse {
   position: relative;
 }
-.micropayments-sub-title {
+.payments-sub-title {
   font-size: 17px;
   text-align: start;
 }
-.micropayments-title {
+.payments-title {
   font-size: 46px;
   margin-top: 15px;
 }
 
-.micropayments-content {
+.payments-content {
   display: flex;
   align-items: center;
   width: 300px;
@@ -440,7 +440,7 @@ h3 {
   border-radius: 25px;
 }
 
-.micropayments-content-reverse {
+.payments-content-reverse {
   display: flex;
   align-items: center;
   width: 300px;
@@ -451,15 +451,15 @@ h3 {
   top: -46px;
   left: 120px;
 }
-.micropayments-section-text {
+.payments-section-text {
   font-size: 17px;
   margin-top: 15px;
 }
-.micropayments-sidebar-text {
+.payments-sidebar-text {
   font-size: 17px;
   padding: 23px;
 }
-.micropayments-img {
+.payments-img {
   padding-left: 23px;
 }
 .solutions {
