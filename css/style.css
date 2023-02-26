@@ -545,12 +545,11 @@ h3 {
 .services {
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 75px;
 }
 .services-content {
- display: flex;
- justify-content: space-between;
- 
+  display: flex;
+  justify-content: space-between;
 }
 .services-title {
   font-size: 27px;
@@ -561,17 +560,40 @@ h3 {
 }
 .services-box {
   width: 23%;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   box-shadow: 0px 0px 40px 0px #0000001a;
   border-radius: 19px;
   padding: 60px 15px;
   display: flex;
   flex-direction: column;
   gap: 17px;
- }
- .services-text {
+}
+.services-text {
   text-align: center;
   font-size: 17px;
   line-height: 120%;
- }
- 
+}
+.services-monetization-btn {
+  padding: 6px 23px;
+  border-radius: 77px;
+  background-color: #46e696;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+.services-monetization-btn:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+.monetization {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.monetization-title {
+  font-size: 55px;
+}
