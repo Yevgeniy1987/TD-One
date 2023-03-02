@@ -664,3 +664,128 @@ h3 {
   text-decoration: underline;
   transition: 0.3s;
 }
+/* `xxl` applies to xx-large devices (large desktops, large laptops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+/* `xl` applies to x-large devices (desktops, laptops, large tablets, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header,
+  .location,
+  .footer {
+    overflow-x: hidden;
+    position: static;
+  }
+  .navbar {
+    left: 300px;
+    width: 70%;
+  }
+  .payments-section {
+    width: 50%;
+  }
+}
+/* `lg` applies to large devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+  }
+  .navbar {
+    left: 240px;
+    width: 70%;
+  }
+  .menu {
+    gap: 15px;
+  }
+  .hero {
+    padding-bottom: 15px;
+  }
+  .payments {
+    padding: 30px 0px;
+  }
+  .payments-container {
+    gap: 45px;
+  }
+  .services {
+    gap: 50px;
+  }
+
+  .services-box {
+    width: 24%;
+    padding: 60px 5px;
+    gap: 15px;
+  }
+  .footer-location {
+    gap: 65px;
+  }
+}
+/*-------------------------------------------------------------------- v1 (depend of design)*/
+/* `md` applies to medium devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .navbar {
+    left: 60px;
+    width: 85%;
+  }
+  .menu {
+    gap: 7px;
+  }
+  .location {
+    gap: 85px;
+  }
+
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+  .photo {
+    max-width: 70%;
+  }
+  .payments-container {
+    flex-direction: column;
+  }
+  .payments-section {
+    width: 100%;
+  }
+  .payments-sidebar {
+    width: 100%;
+  }
+  .solutions-features {
+    width: 100%;
+    margin: 60px auto;
+    padding: 15px 0px;
+}
+.solution-content {
+  gap: 0px;
+  margin-top: 25px;
+}
+.solution-sidebar {
+  width: 50%;
+  padding: 0px 10px;
+  gap: 10px;
+}
+.solution-img {
+  width: 47%;
+}
+.services {
+  gap: 30px;
+}
+.footer-location {
+  gap: 45px;
+  justify-content: start;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.footer-location {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.footer-columns {
+  width: 30%;
+ }
+}
