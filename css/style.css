@@ -603,7 +603,6 @@ h3 {
   margin-top: 60px;
   padding: 100px 0;
   display: flex;
-  
 }
 .footer-location {
   display: flex;
@@ -759,34 +758,70 @@ h3 {
     width: 100%;
     margin: 60px auto;
     padding: 15px 0px;
-}
-.solution-content {
-  gap: 0px;
-  margin-top: 25px;
-}
-.solution-sidebar {
-  width: 50%;
-  padding: 0px 10px;
-  gap: 10px;
-}
-.solution-img {
-  width: 47%;
-}
-.services {
-  gap: 30px;
-}
-.footer-location {
-  gap: 45px;
-  justify-content: start;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-}
+  }
+  .solution-content {
+    gap: 0px;
+    margin-top: 25px;
+  }
+  .solution-sidebar {
+    width: 50%;
+    padding: 0px 10px;
+    gap: 10px;
+  }
+  .solution-img {
+    width: 47%;
+  }
+  .services {
+    gap: 30px;
+  }
+  .footer-location {
+    gap: 45px;
+    justify-content: start;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
 
-.footer-location {
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+  .footer-location {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  .footer-columns {
+    width: 30%;
+  }
 }
-.footer-columns {
-  width: 30%;
- }
+/*-------------------------------------------------------------------- v2 (depend of design)*/
+/* `sm` applies to small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .header,
+  .location,
+  .footer {
+    overflow-x: hidden;
+    position: static;
+  }
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+  }
+  .header-link {
+    padding: 10px 10px;
+  }
+  .location {
+    gap: 50px;
+  }
+  .payments {
+    padding: 30px 30px;
+  }
+  .brands-content::before {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
 }
+/* `xsm` applies to x-small devices (x-small portrait phones (old iPhone 5/5s/SE), up to 320px)
+@media (max-width: 320px) {
+} */
