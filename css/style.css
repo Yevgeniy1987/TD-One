@@ -802,6 +802,10 @@ h3 {
     overflow-x: hidden;
     position: static;
   }
+  .navbar {
+    left: 0px;
+    width: 100%;
+  }
   .menu {
     flex-wrap: wrap;
     justify-content: center;
@@ -811,17 +815,162 @@ h3 {
     padding: 10px 10px;
   }
   .location {
-    gap: 50px;
+    gap: 40px;
   }
+  .hero-content {
+    margin-top: 45px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .partners-location {
+    gap: 35px;
+  }
+  .partners-title {
+    font-size: 25px;
+    width: 95%;
+  }
+  .partners-info {
+    font-size: 15px;
+    padding: 15px 20px;
+  }
+  .advantages {
+    margin: 0 30px;
+    padding: 40px 0;
+  }
+  .advantages-location {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .advantages-box {
+    width: 100%;
+  }
+  .brands {
+    gap: 40px;
+  }
+  .brands-title {
+    font-size: 25px;
+    width: 90%;
+  }
+  .brands-img {
+    object-fit: cover;
+  }
+  .brands-features {
+    justify-content: space-between;
+  }
+  .brands-text {
+    font-size: 14px;
+    width: 90%;
+    margin: 10 auto;
+  }
+  .brands-content {
+    width: 33%;
+  }
+
   .payments {
-    padding: 30px 30px;
+    padding: 0 0;
+  }
+  .payments-title {
+    font-size: 25px;
+  }
+  .payment-btn {
+    margin-top: 25px;
   }
   .brands-content::before {
     width: 50px;
     height: 50px;
     border-radius: 10px;
   }
+  .payments-content-reverse {
+    width: 285px;
+    height: 85px;
+    border-radius: 25px;
+    top: -43px;
+    left: 0px;
+  }
+  .payments-content {
+    width: 285px;
+    height: 85px;
+  }
+  .payments-sidebar {
+    gap: 60px;
+  }
+  .payments-sidebar-text {
+    font-size: 15px;
+    padding: 17px;
+  }
+  .payments-img {
+    padding-left: 15px;
+  }
+
+  .solutions-title {
+    left: 23%;
+  }
+  .solution-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .solutions-menu {
+    justify-content: center;
+    gap: 10px;
+  }
+  .solution-sidebar {
+    width: 100%;
+    padding: 0px 10px;
+    gap: 10px;
+  }
+  .solution-img {
+    width: 92%;
+  }
+  .services {
+    gap: 25px;
+  }
+  .services-title {
+    font-size: 25px;
+    gap: 15px;
+  }
+  .services-box {
+    width: 47%;
+    padding: 45px 5px;
+    gap: 15px;
+  }
+  .services-content {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .monetization {
+    gap: 32px;
+    padding: 20px 0;
+  }
+  .monetization-title {
+    font-size: 25px;
+    padding: 0 5px;
+  }
+  .footer {
+    margin-top: 30px;
+    padding: 66px 0;
+  }
+  .footer-location {
+    flex-direction: column-reverse;
+  }
+  .footer-location {
+    flex-direction: row-reverse;
+  }
+  .footer-img-align {
+    width: 100%;
+    justify-content: center;
+  }
+  .footer-columns {
+    width: 41%;
+  }
+  .footer-text {
+    bottom: -50px;
+    left: 14px;
+    font-size: 11px;
+  }
 }
+
 /* `xsm` applies to x-small devices (x-small portrait phones (old iPhone 5/5s/SE), up to 320px)
 @media (max-width: 320px) {
 } */
