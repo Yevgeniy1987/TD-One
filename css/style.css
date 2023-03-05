@@ -600,14 +600,15 @@ h3 {
 }
 .footer {
   background-color: #002d24;
-  margin-top: 100px;
-  padding: 50px 0;
+  margin-top: 60px;
+  padding: 100px 0;
   display: flex;
-  position: relative;
+  
 }
 .footer-location {
   display: flex;
   gap: 90px;
+  position: relative;
 }
 .footer-img {
   width: 30px;
@@ -652,8 +653,8 @@ h3 {
 }
 .footer-text {
   position: absolute;
-  bottom: 25px;
-  left: 60px;
+  bottom: -65px;
+  left: 0;
   color: #ffffff80;
   font-size: 11px;
 }
